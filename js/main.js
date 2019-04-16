@@ -183,7 +183,7 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		nav: false,
+		nav: true,
       	navspeed: 600,
       	autoplay: true,
 		responsive: {
