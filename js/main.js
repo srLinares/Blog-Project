@@ -179,7 +179,7 @@ $(document).ready(function() {
 
 	// post carousel js //
 	$('.active-post-carusel').owlCarousel({
-		items: 3,
+		items: 1,
 		loop: true,
 		margin: 0,
 		dots: false,
