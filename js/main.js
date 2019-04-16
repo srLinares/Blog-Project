@@ -152,7 +152,7 @@ $(document).ready(function() {
 		navSpeed:500,
       nav:false,
       autoplay: true,
-      rewind: true,
+     
       responsive: {
 			0: {
 				items: 1
