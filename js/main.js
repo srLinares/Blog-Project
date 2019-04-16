@@ -150,7 +150,7 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
-      	navspeed: 300,
+      	navspeed: 500,
       	autoplay: true,
 		responsive: {
 			0: {
@@ -184,7 +184,7 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
-      	navspeed: 650,
+      	navspeed: 500,
       	autoplay: true,
 		responsive: {
 			0: {
