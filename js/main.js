@@ -149,7 +149,7 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		nav: false,
+		nav: true,
 		responsive: {
 			0: {
 				items: 1
@@ -181,7 +181,7 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		nav: false,
+		nav: true,
 		responsive: {
 			0: {
 				items: 1
