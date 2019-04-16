@@ -149,8 +149,11 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		nav: true,
-		responsive: {
+		navSpeed:500,
+      nav:true,
+      autoplay: true,
+      rewind: true,
+      responsive: {
 			0: {
 				items: 1
 			},
