@@ -149,11 +149,8 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		navSpeed:500,
-      nav:false,
-      autoplay: true,
-     
-      responsive: {
+		nav: false,
+		responsive: {
 			0: {
 				items: 1
 			},
@@ -185,8 +182,6 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
-      navSpeed:550,
-      autoplay: true,
 		responsive: {
 			0: {
 				items: 1
