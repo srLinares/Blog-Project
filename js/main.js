@@ -150,7 +150,7 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		navSpeed:500,
-      nav:true,
+      nav:false,
       autoplay: true,
       rewind: true,
       responsive: {
