@@ -184,7 +184,9 @@ $(document).ready(function() {
 		loop: true,
 		margin: 0,
 		dots: false,
-		nav: true,
+		nav: false,
+      navSpeed:550,
+      autoplay: true,
 		responsive: {
 			0: {
 				items: 1
