@@ -1934,7 +1934,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       .single-post-carousel .post-details .post-content .post-meta .thumb {
         display: inline-block; }
         .single-post-carousel .post-details .post-content .post-meta .thumb img {
-          margin-top: -25px; }
+          margin-top: -25px;  border-radius: 50%; }
       .single-post-carousel .post-details .post-content .post-meta .c-desc {
         display: inline-block;
         padding-left: 15px; }
