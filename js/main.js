@@ -150,6 +150,8 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
+      	navspeed: 500,
+      	autoplay: true,
 		responsive: {
 			0: {
 				items: 1
@@ -177,11 +179,13 @@ $(document).ready(function() {
 
 	// post carousel js //
 	$('.active-post-carusel').owlCarousel({
-		items: 3,
+		items: 1,
 		loop: true,
 		margin: 0,
 		dots: false,
 		nav: false,
+      	navspeed: 500,
+      	autoplay: true,
 		responsive: {
 			0: {
 				items: 1
