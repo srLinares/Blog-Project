@@ -61,6 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 
   
+  
 </head>
   
 
@@ -368,17 +369,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
 							</div>
 
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Feed AD -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1911016056397577"
-     data-ad-slot="5991121417"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+							
 
 							<div class="col-lg-6 col-md-6">
 								<div class="single-post-item">
@@ -711,6 +702,161 @@ qacct:"p-jR1ZMYW3aZ16u"
 </div>
 </noscript>
 <!-- End Quantcast tag -->
+
+<!-- Quantcast Choice. Consent Manager Tag -->
+<script type="text/javascript" async=true>
+    var elem = document.createElement('script');
+    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    (function() {
+    var gdprAppliesGlobally = true;
+    function addFrame() {
+        if (!window.frames['__cmpLocator']) {
+        if (document.body) {
+            var body = document.body,
+                iframe = document.createElement('iframe');
+            iframe.style = 'display:none';
+            iframe.name = '__cmpLocator';
+            body.appendChild(iframe);
+        } else {
+            // In the case where this stub is located in the head,
+            // this allows us to inject the iframe more quickly than
+            // relying on DOMContentLoaded or other events.
+            setTimeout(addFrame, 5);
+        }
+        }
+    }
+    addFrame();
+    function cmpMsgHandler(event) {
+        var msgIsString = typeof event.data === "string";
+        var json;
+        if(msgIsString) {
+        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+        } else {
+        json = event.data;
+        }
+        if (json.__cmpCall) {
+        var i = json.__cmpCall;
+        window.__cmp(i.command, i.parameter, function(retValue, success) {
+            var returnMsg = {"__cmpReturn": {
+            "returnValue": retValue,
+            "success": success,
+            "callId": i.callId
+            }};
+            event.source.postMessage(msgIsString ?
+            JSON.stringify(returnMsg) : returnMsg, '*');
+        });
+        }
+    }
+    window.__cmp = function (c) {
+        var b = arguments;
+        if (!b.length) {
+        return __cmp.a;
+        }
+        else if (b[0] === 'ping') {
+        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+            "cmpLoaded": false}, true);
+        } else if (c == '__cmp')
+        return false;
+        else {
+        if (typeof __cmp.a === 'undefined') {
+            __cmp.a = [];
+        }
+        __cmp.a.push([].slice.apply(b));
+        }
+    }
+    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+    window.__cmp.msgHandler = cmpMsgHandler;
+    if (window.addEventListener) {
+        window.addEventListener('message', cmpMsgHandler, false);
+    }
+    else {
+        window.attachEvent('onmessage', cmpMsgHandler);
+    }
+    })();
+    window.__cmp('init', {
+    		'Language': 'ru',
+		'Initial Screen Title Text': 'Мы уважаем вашу конфиденциальность',
+		'Initial Screen Reject Button Text': 'Я не даю согласие',
+		'Initial Screen Accept Button Text': 'Я даю согласие',
+		'Initial Screen Purpose Link Text': 'Объяснить подробнее',
+		'Purpose Screen Title Text': 'Мы с большим уважением относимся к Bашей конфиденциальности',
+		'Purpose Screen Body Text': 'Вы можете установить предпочтения и определить, на какое использование Bаших данных Вы согласны. Вы также можете указать свои предпочтения для нашего сайта независимо от сайтов наших партнеров. Каждая алгоритм имеет своё описание, объясняющее, как мы и наши партнеры используем ваши данные.',
+		'Purpose Screen Vendor Link Text': 'Полный список партнёров',
+		'Purpose Screen Cancel Button Text': 'Отменить',
+		'Purpose Screen Save and Exit Button Text': 'Сохранить и выйти',
+		'Vendor Screen Title Text': 'Мы с большим уважением относимся к Bашей конфиденциальности',
+		'Vendor Screen Body Text': 'Ниже Вы можете настроить ваши предпочтения для каждой отдельной компании. Разверните каждый элемент списка компаний, чтобы узнать, для каких целей они используют данные, и затем сделать ваш выбор. В некоторых случаях компании указать, что ваши данные используются без вашего согласия в рамках законных интересов. Вы можете кликнуть на раздел политики конфиденциальности этих компаний для получения дополнительной информации и при желании отказаться.',
+		'Vendor Screen Accept All Button Text': 'Согласиться со всем',
+		'Vendor Screen Reject All Button Text': 'Отказаться от всего',
+		'Vendor Screen Purposes Link Text': 'Вернуться к алгоритму',
+		'Vendor Screen Cancel Button Text': 'Отменить',
+		'Vendor Screen Save and Exit Button Text': 'Сохранить и выйти',
+		'Initial Screen Body Text': 'Мы и наши партнёры исполузем онлайн технологии, такие как куки, для персонализации контента и рекламы, предоставления функций социальных сетей и анализа нашего трафика. Нажмите для согласия на использование этих онлайн-технологий. Вы сможете изменить свой выбор и отказаться от согласия в любой момент, вернувшись на этот сайт.',
+		'Initial Screen Body Text Option': 1,
+		'Publisher Name': 'Nasha Kultura',
+		'Display UI': 'always',
+		'Publisher Purpose IDs': [1,2,3,4],
+		'Publisher Logo': 'https://www.dropbox.com/s/yr78tl7lyzncybb/logo.png?dl=0',
+		'UI Layout': 'banner',
+		'No Option': false,
+    });
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag -->
+    <style>
+        .qc-cmp-button {
+          background-color: #6610f2 !important;
+          border-color: #6610f2 !important;
+        }
+        .qc-cmp-button:hover {
+          background-color: transparent !important;
+          border-color: #6610f2 !important;
+        }
+        .qc-cmp-alt-action,
+        .qc-cmp-link {
+          color: #6610f2 !important;
+        }
+        .qc-cmp-button {
+          color: #fff !important;
+        }
+        .qc-cmp-button.qc-cmp-secondary-button {
+          color: #fff !important;
+        }
+        .qc-cmp-button.qc-cmp-button.qc-cmp-secondary-button:hover {
+          color:#ffffff !important;
+        }
+        .qc-cmp-button.qc-cmp-secondary-button {
+          border-color: #6c757d !important;
+          background-color: transparent !important;
+        }
+        .qc-cmp-button.qc-cmp-secondary-button:hover {
+          background-color: #6c757d !important;
+        }
+        .qc-cmp-ui,
+        .qc-cmp-ui .qc-cmp-main-messaging,
+        .qc-cmp-ui .qc-cmp-messaging,
+        .qc-cmp-ui .qc-cmp-beta-messaging,
+        .qc-cmp-ui .qc-cmp-title,
+        .qc-cmp-ui .qc-cmp-sub-title,
+        .qc-cmp-ui .qc-cmp-purpose-info,
+        .qc-cmp-ui .qc-cmp-table,
+        .qc-cmp-ui .qc-cmp-table-header,
+        .qc-cmp-ui .qc-cmp-vendor-list,
+        .qc-cmp-ui .qc-cmp-vendor-list-title {
+            color: #fff !important;
+        }
+        .qc-cmp-ui a,
+        .qc-cmp-ui .qc-cmp-alt-action {
+          color: #6f42c1 !important;
+        }
+        .qc-cmp-ui {
+            background-color: #343a40 !important;
+        }
+    </style>
+
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
